@@ -8,6 +8,10 @@
     /* float: right; */
 }
 
+.container {
+    float: right;
+}
+
 .red {
     background-color: red;
 }
