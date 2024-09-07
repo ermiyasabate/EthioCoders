@@ -22,3 +22,11 @@ console.log(1 != 0)
 
 // Practice
 console.log(1 + 1 + 2 + 3 + 5)
+
+// this is a single-line comment
+
+/*
+    this is
+    a multi-line
+    comment
+*/
