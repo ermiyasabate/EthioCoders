@@ -17,3 +17,7 @@
  */
  
  // your code goes here
+ let adjective1
+ let adjective2
+ let adjective3
+ let madLib
