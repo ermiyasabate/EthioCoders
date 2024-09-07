@@ -17,3 +17,6 @@
  */
  
 // your code goes here
+const bill;
+const tip;
+const total;
