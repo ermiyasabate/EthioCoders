@@ -14,3 +14,5 @@
  */
 
 // your code goes here
+let thingOne
+let thingTwo
