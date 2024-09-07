@@ -22,3 +22,11 @@ for (let i = 0; i < my_strings.length; i++) {
 
 
 console.log("green" == "blue")
+console.log("green" == "blue")
+console.log("green" == "blue")
+console.log("green" == "blue")
+console.log("green" == "blue")
+console.log("green" == "blue")
+console.log("green" == "blue")
+console.log("green" == "blue")
+console.log("green" == "blue")
