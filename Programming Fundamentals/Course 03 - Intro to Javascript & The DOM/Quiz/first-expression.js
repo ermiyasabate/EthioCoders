@@ -13,3 +13,4 @@
 
 
 // this expression equals 4, change it to equal 42
+console.log((12 % 5) * (40/2) + (10 - 8));
