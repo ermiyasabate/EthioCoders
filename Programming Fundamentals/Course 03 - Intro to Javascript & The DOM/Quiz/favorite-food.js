@@ -8,4 +8,4 @@
  * 2. Your code should have the first character capitalized
  * 3. Your code must have a `console.log()` function
  */
-console.log(/* replace this comment with your string */);
+console.log("Pizza!");
