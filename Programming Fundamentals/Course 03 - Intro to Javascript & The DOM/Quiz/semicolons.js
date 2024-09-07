@@ -17,4 +17,4 @@
 let thingOne = "Hello"
 let thingTwo = "World"
 
-console.log()
+console.log(thingOne + thingTwo);
