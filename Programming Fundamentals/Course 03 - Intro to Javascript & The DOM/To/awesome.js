@@ -36,3 +36,7 @@
  
  
 // Add your code here
+let firstName = "Julia"
+let interest = "cats"
+let hobby = "play video games"
+
