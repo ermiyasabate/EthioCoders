@@ -15,9 +15,9 @@
  * 3. Your madLib should match the given string
  * 4. The madLib variable should be printed to the console
  */
- 
- // your code goes here
- let adjective1
- let adjective2
- let adjective3
- let madLib
+
+// your code goes here
+let adjective1 = "amazing"
+let adjective2 = "fun"
+let adjective3 = "entertaining"
+let madLib = "The Intro to JavaScript course is " + adjective1 +". James and Julia are so " + adjective2 + ". I cannot wait to work through the rest of this " + adjective3 + " content!"
