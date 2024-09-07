@@ -19,3 +19,6 @@ const my_strings = "Udacity";
 for (let i = 0; i < my_strings.length; i++) {
   console.log(my_strings.charCodeAt(i));
 }
+
+
+console.log("green" == "blue")
