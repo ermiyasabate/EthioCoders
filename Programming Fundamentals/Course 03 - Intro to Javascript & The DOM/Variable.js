@@ -13,3 +13,9 @@ console.log(dinner);
     dinner = dinner + " and " + "tamales";
     console.log(dinner);
 */
+
+/* This is error
+    let dinner = "tacos";
+    const dinner =  "tamales";
+    console.log(dinner);
+*/
