@@ -11,4 +11,4 @@
  */
  
 // your code goes here
-const fullName
+const fullName = "John Doe"
