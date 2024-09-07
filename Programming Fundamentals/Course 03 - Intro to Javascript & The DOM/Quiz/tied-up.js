@@ -6,5 +6,5 @@
  * 2. Your joke should use only one string
  * 3. Your joke should match the expected format
 */
-const joke = "Why did the scarecrow win an award? Because he was outstanding in his field!"
+const joke = "Why couldn't the shoes go out and play?\nThey were all \"tied\" up!"
 console.log(joke);
