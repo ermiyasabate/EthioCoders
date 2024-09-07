@@ -16,3 +16,4 @@ console.log(4096 % 12)
 // Comparing numbers
 console.log(5 > 10)
 console.log(43 > 47)
+console.log(12 == 17)
