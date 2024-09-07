@@ -14,5 +14,7 @@
  */
 
 // your code goes here
-let thingOne
-let thingTwo
+let thingOne = "Hello"
+let thingTwo = "World"
+
+console.log()
