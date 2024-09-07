@@ -18,5 +18,5 @@
  
 // your code goes here
 const bill = 10.25 + 3.99 + 7.15;
-const tip;
+const tip = bill * 1.5;
 const total;
