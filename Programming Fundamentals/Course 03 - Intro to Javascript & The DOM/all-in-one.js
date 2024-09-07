@@ -30,3 +30,9 @@ console.log(1 + 1 + 2 + 3 + 5)
     a multi-line
     comment
 */
+
+
+// String
+console.log("Hello, world!")
+console.log("123456789")
+console.log("!@#$%^&*()")
