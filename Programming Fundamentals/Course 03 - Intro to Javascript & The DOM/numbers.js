@@ -7,3 +7,5 @@ console.log(3 * 6)
 console.log(18 / 4)
 console.log(18 % 4)
 console.log(18 ** 4)
+
+console.log(2 + 10 - 19 + 4 - 90 + 1)
