@@ -9,5 +9,5 @@
  * 3. Your poem should match the famous haiku poem
  */
 
-const haiku = /* concatenate the strings here */
+const haiku = "Hello" + " , World!"
 console.log(haiku);
