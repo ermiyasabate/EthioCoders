@@ -19,3 +19,6 @@ console.log(43 > 47)
 console.log(12 == 17)
 console.log(3 <= 3)
 console.log(1 != 0)
+
+// Practice
+console.log(1 + 1 + 2 + 3 + 5)
