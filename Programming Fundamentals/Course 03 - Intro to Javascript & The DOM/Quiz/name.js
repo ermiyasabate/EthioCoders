@@ -12,3 +12,5 @@
  
 // your code goes here
 const fullName = "John Doe"
+
+console.log(fullName)
