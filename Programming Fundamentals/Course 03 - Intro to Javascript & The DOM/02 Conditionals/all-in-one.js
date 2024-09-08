@@ -1,3 +1,5 @@
+// If...else Statements
+
 const price = 15.00; // Price of the hammer
 const money = 20.00; // Our money
 
