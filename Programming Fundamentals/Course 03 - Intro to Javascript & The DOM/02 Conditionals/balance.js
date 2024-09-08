@@ -12,9 +12,9 @@
  */
  
 // change the values of `balance`, `checkBalance`, and `isActive` to test your code
-const balance = 325.00;
+const balance = 0;
 const checkBalance = true;
-const isActive = false;
+const isActive = true;
 
 // your code goes here
 if (checkBalance) {
