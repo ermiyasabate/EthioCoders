@@ -9,5 +9,5 @@
  * 3. Your poem should match the famous haiku poem
  */
 
-const haiku = "Hello" + " , World!"
+const haiku = "Blowing from the west" + "\nFallen leaves gather" + "\nIn the east."
 console.log(haiku);
