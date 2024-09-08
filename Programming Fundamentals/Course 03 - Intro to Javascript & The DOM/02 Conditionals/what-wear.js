@@ -17,7 +17,7 @@
  * 3. Your code should use logical expressions
  * 4. Your code should produce the expected output.
  */
- 
+
 
 
 // change the values of `shirtWidth`, `shirtLength`, and `shirtSleeve` to test your code
@@ -26,25 +26,25 @@ const shirtLength = 30;
 const shirtSleeve = 8.71;
 
 // your code goes here
-const S = 18 <= shirtWidth < 20 && 28 <= shirtLength < 29 && 8.13 <= shirtSleeve < 8.38
-const M = 20 <= shirtWidth < 22 && 29 <= shirtLength < 30 && 8.38 <= shirtSleeve < 8.63
-const L = 22 <= shirtWidth < 24 && 30 <= shirtLength < 31 && 8.63 <= shirtSleeve < 8.88
-const XL = 24 <= shirtWidth < 26 && 31 <= shirtLength < 33 && 8.88 <= shirtSleeve < 9.63
-const Two_XL = 26 <= shirtWidth < 28 && 33 <= shirtLength < 34 && 9.63 <= shirtSleeve < 10.13
-const Three_XL = shirtWidth >= 28 && shirtLength >= 34 && shirtSleeve >= 10.13
-
-if (S){
-    console.log("S")
-} else if (M){
-    console.log("M")
-} else if (L){
-    console.log("L")
-} else if (XL){
-    console.log("XL")
-} else if (Two_XL){
-    console.log("2XL")
-} else if (Three_XL){
-    console.log("3XL")
-} else {
-    console.log("N/A")
+if ((shirtWidth >= 18 && shirtWidth < 20) && (shirtLength >= 28 && shirtLength < 29) && (shirtSleeve >= 8.13 && shirtSleeve < 8.38)) {
+    size = "S";
 }
+else if ((shirtWidth >= 20 && shirtWidth < 22) && (shirtLength >= 29 && shirtLength < 30) && (shirtSleeve >= 8.38 && shirtSleeve < 8.63)) {
+    size = "M";
+}
+else if ((shirtWidth >= 22 && shirtWidth < 24) && (shirtLength >= 30 && shirtLength < 31) && (shirtSleeve >= 8.63 && shirtSleeve < 8.88)) {
+    size = "L";
+}
+else if ((shirtWidth >= 24 && shirtWidth < 26) && (shirtLength >= 31 && shirtLength < 33) && (shirtSleeve >= 8.88 && shirtSleeve < 9.63)) {
+    size = "XL";
+}
+else if ((shirtWidth >= 26 && shirtWidth < 28) && (shirtLength >= 33 && shirtLength < 34) && (shirtSleeve >= 9.63 && shirtSleeve < 10.13)) {
+    size = "2XL";
+}
+else if ((shirtWidth >= 28) && (shirtLength >= 34) && (shirtSleeve >= 10.13)) {
+    size = "3XL";
+}
+else {
+    size = "NA";
+}
+console.log(size);
