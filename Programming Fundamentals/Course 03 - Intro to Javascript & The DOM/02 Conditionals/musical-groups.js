@@ -8,7 +8,7 @@
  */
  
 // change the value of `musicians` to test your conditional statements
-const musicians = 1;
+const musicians = 75;
 
 // your code goes here
 if (musicians === 0) {
