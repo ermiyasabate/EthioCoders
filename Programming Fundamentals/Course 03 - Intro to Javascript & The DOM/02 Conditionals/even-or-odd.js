@@ -19,8 +19,8 @@
 const number = 2;
 
 // your code goes here
-if (/* your conditional goes here */) {
-    
+if (number % 2 === 0) {
+    console.log(number + " is even")
 } else {
-
+    console.log(number + " is odd")
 }
