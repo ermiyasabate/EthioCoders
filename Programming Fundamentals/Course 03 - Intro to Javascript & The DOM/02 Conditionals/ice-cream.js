@@ -29,3 +29,12 @@ const topping = "sprinkles";
 const vessel = "wafer cone";
 
 // your code goes here
+const flavorOK = flavor === "vanilla" || flavor === "chocolate";
+const toppingOK = topping === "sprinkles" || topping === "peanuts";
+const vesselOK = vessel === "sugar cone" || vessel === "wafer cone";
+
+if (flavorOK || toppingOK || vesselOK ) {
+    console.log ("Great choice! Your ice cream is at the next window.");
+} else {
+    console.log ("Please check our menu and try again.");
+}
