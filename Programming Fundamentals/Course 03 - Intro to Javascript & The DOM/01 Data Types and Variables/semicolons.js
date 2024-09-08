@@ -14,7 +14,7 @@
  */
 
 // your code goes here
-let thingOne = "Hello"
-let thingTwo = "World"
+const thingOne = "Text One";
+const thingTwo = "Text Two";
 
-console.log(thingOne + thingTwo);
+console.log(thingOne + " " + thingTwo);
