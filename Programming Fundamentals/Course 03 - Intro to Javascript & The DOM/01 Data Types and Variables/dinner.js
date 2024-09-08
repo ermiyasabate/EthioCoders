@@ -21,4 +21,4 @@ const bill = 10.25 + 3.99 + 7.15;
 const tip = bill * 0.15;
 const total = bill + tip;
 
-console.log("Total = " + total)
+console.log("Total = $" + total)
