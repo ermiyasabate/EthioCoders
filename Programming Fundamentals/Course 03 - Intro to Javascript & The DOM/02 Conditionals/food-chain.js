@@ -18,14 +18,20 @@
  * - Your code should include ternary statements. Do not use if....else statement. 
  * - Your code should produce the expected output
  */
- 
+
 // change the values of `eatsPlants` and `eatsAnimals` to test your code
 const eatsPlants = true;
 const eatsAnimals = true;
-let category;
+// let category;
 
 // your code goes here
-(eatsPlants && eatsAnimals)? category = "omnivore": category = "undefined";
-(eatsPlants || !(eatsAnimals))? category = "herbivore": category = "carnivore";
+// Assuming you have boolean variables: eatsPlants and eatsAnimals
+let category = eatsPlants
+  ? eatsAnimals
+    ? 'Omnivore'
+    : 'Herbivore'
+  : eatsAnimals
+    ? 'Carnivore'
+    : undefined;
 
 console.log(category);
