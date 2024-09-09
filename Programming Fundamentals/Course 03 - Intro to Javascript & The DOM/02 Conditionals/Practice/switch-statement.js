@@ -19,4 +19,6 @@ switch (value) {
     case 6:
         console.log("You selected option 6.");
         break;
+    default:
+        console.log("You did not select a valid option.");
 }
