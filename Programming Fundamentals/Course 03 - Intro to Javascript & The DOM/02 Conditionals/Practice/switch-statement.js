@@ -1,4 +1,4 @@
-const value = 4
+const value = 44
 
 switch (value) {
     case 1:
