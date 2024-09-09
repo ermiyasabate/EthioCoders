@@ -19,3 +19,4 @@ console.log("It costs $" + (adult ? "40.00" : "20.00") + " to attend the concert
 
 console.log("false" ? true: false)
 console.log(false ? "false": "true")
+console.log("true" ? "false": true)
