@@ -47,3 +47,37 @@ switch (favoriteFood) {
 }
 
 console.log("Go to the " + restaurant);
+
+
+// Example 2 - The output is 30
+const month = 7;
+let days;
+
+switch (month) {
+    case 1:
+    case 2:
+        days = 28;
+        break;
+    case 3:
+    case 4:
+        days = 30;
+        break;
+    case 5:
+    case 6:
+        days = 30;
+        break;
+    case 7:
+    case 8:
+    case 9:
+        days = 30;
+        break;
+    case 10:
+    case 11:
+        days = 30;
+        break;
+    case 12:
+    default:
+        days = 31;
+}
+
+console.log("There are " + days + " days in this month.");
