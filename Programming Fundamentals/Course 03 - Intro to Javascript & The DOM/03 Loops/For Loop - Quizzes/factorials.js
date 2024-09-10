@@ -10,7 +10,7 @@
 // your code goes here
 let solution = 1
 
-for (let factorial = 5; factorial >= 1; factorial--) {
+for (let factorial = 12; factorial >= 1; factorial--) {
     solution *= factorial
 }
 
