@@ -8,3 +8,10 @@
  */
 
 // your code goes here
+let solution = 1
+
+for (let factorial = 5; factorial >= 1; factorial--) {
+    solution *= factorial
+}
+
+console.log(solution)
