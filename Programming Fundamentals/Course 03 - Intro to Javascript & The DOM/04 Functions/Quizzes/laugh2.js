@@ -9,8 +9,18 @@
  */
 
 // your code goes here
+let finalWord = ""
 
-
+function laugh (num) {
+    if (num === 0) {
+        return ""
+    } else {
+        for (let i = 0; i < num; i++) {
+            finalWord += "ha"
+        }
+        return finalWord + "!";
+    }
+}
 
 // test code
 console.log(laugh(0)) 
