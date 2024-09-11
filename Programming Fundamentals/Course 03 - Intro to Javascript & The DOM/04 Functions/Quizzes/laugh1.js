@@ -10,7 +10,11 @@
  */
 
 // your code goes here
-
+function laugh() {
+    // create a variable with any name of your choice
+    const sound = "hahahahahahahahahaha!"
+    return sound;
+}
 
 // test your code by logging out the returned value
-console.log(/* call the laugh function */);
+console.log(laugh());
