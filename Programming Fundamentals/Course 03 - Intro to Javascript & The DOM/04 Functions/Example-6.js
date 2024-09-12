@@ -12,3 +12,5 @@ function library() {
 
     classicLiterature();
 }
+
+library()
