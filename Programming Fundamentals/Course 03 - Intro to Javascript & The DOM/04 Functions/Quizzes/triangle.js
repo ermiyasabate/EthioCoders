@@ -20,7 +20,12 @@ function makeLine(length) {
 }
 
 // your code goes here.  Make sure you call makeLine() in your own code.
-
+function buildTriangle(length) {
+    for (let i = 0; i <= length; i++) {
+        console.log(makeLine(i));
+    }
+}
 
 // test your code 
-console.log(buildTriangle(10));
+console.log(buildTriangle(3));
+// console.log(makeLine(3));
