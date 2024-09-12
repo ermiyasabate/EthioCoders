@@ -7,14 +7,3 @@ const catSays = function (max) {
 };
 
 console.log(catSays)
-
-
-let x = 1;
-
-function addTwo() {
-   let x = x + 2;
-}
-
-addTwo();
-x = x + 1;
-console.log(x);
