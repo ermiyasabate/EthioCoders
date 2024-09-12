@@ -21,9 +21,16 @@ function makeLine(length) {
 
 // your code goes here.  Make sure you call makeLine() in your own code.
 function buildTriangle(length) {
-    for (let i = 0; i <= length; i++) {
-        console.log(makeLine(i));
+    // Let's build a huge string equivalent to the triangle
+    var triangle = "";
+    //Let's start from the topmost line
+    let lineNumber = 1;
+    for (lineNumber = 1; lineNumber <= length; lineNumber++) {
+        // We will not print one line at a time.
+        // Rather, we will make a huge string that will comprise the whole triangle
+        triangle = triangle + makeLine(lineNumber);
     }
+    return triangle;
 }
 
 // test your code 
