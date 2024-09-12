@@ -14,5 +14,5 @@ function library() {
 }
 
 library()
-
+console.log(librarian);
 // bookSeeker and book are in the global scope so as expected, we can use access them anywhere in the code.
