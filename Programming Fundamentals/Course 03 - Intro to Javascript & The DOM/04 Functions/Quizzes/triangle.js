@@ -27,5 +27,5 @@ function buildTriangle(length) {
 }
 
 // test your code 
-console.log(buildTriangle(3));
+console.log(buildTriangle(10));
 // console.log(makeLine(3));
