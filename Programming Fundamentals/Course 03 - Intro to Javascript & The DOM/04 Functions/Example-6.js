@@ -14,5 +14,6 @@ function library() {
 }
 
 library()
-console.log(librarian);
+
 // bookSeeker and book are in the global scope so as expected, we can use access them anywhere in the code.
+// console.log(librarian); This we produce an error message, because librarian can only be accessed inside the scope of the library function.
