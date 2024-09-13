@@ -7,3 +7,4 @@ const catSays = function (max) {
 };
 
 console.log(catSays)
+
