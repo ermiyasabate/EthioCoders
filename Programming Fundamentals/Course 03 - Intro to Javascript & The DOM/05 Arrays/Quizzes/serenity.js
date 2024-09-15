@@ -18,5 +18,4 @@ const mechanic = "Kaylee";
 
 // your code goes 
 const crew = ["here", "Mal", "Zoe", "Wash", "Inara", "Jayne", "Kaylee"];
-
 console.log(crew);
