@@ -19,3 +19,7 @@ const mechanic = "Kaylee";
 // your code goes 
 const crew = ["here", "Mal", "Zoe", "Wash", "Inara", "Jayne", "Kaylee"];
 console.log(crew);
+
+//Solution 2 - Array constructor
+// const crew = new Array(captain, second, pilot, companion, mercenary, mechanic);
+// console.log(crew);
