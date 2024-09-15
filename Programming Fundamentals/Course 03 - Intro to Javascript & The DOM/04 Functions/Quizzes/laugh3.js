@@ -11,9 +11,9 @@
  */
 
 // your code goes here
-const result = ""
+let result = ""
 const laugh = function (num) {
-    for (let i = 0; i < num; i++) {\
+    for (let i = 0; i < num; i++) {
         result += "ha"
     }
 
