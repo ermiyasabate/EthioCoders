@@ -13,6 +13,8 @@
 
 // your code goes here
 const cry = function () {
+    // const sound = "boohoo!";
+    // return sound;
     return "boohoo!"
 }
 
