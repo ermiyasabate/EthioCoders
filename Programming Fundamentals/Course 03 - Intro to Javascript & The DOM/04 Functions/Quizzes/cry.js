@@ -12,7 +12,9 @@
 
 
 // your code goes here
-
+const cry = function () {
+    return "boohoo!"
+}
 
 // test your solution
 console.log(cry());
