@@ -27,7 +27,7 @@ const myFunc = function (num) {
 }
 
 function emotions(myString, myFunc) {
-    console.log("I am " + myString + ", " + myFunc(0));
+    console.log("I am " + myString + ", " + myFunc(7));
 }
 
 // your code goes here
