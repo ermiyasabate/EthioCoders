@@ -5,3 +5,4 @@ const donuts = ["glazed", "chocolate frosted", "Boston cream", "powdered", "spri
 donuts[0] = "Abebe"
 
 console.log(donuts)
+console.log(donuts[0])
