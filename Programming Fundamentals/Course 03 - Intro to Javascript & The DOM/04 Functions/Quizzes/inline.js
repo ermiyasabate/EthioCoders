@@ -17,7 +17,7 @@ let finalWord = ""
 
 const myFunc = function (num) {
     if (num === 0) {
-        return ""
+        return "!"
     } else {
         for (let i = 0; i < num; i++) {
             finalWord += "ha"
@@ -27,11 +27,11 @@ const myFunc = function (num) {
 }
 
 function emotions(myString, myFunc) {
-    console.log("I am " + myString + ", " + myFunc(2));
+    console.log("I am " + myString + ", " + myFunc(0));
 }
 
 // your code goes here
 // Call the emotions() function with two arguments
 // Argument 1 - "happy" string
 // Argument 2 - an inline function expression
-emotions("happy", myFunc(2))
+emotions("happy", myFunc)
