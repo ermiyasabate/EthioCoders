@@ -36,3 +36,6 @@ const donut = [
     "cake donut holes",
     "chocolate donut holes"
 ]
+
+// Accessing Arrays
+console.log(donut[0])
