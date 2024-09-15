@@ -17,4 +17,6 @@ const udaciFamily = [
     "Ermiyas"
 ];
 
-console.log(udaciFamily)
+for (let i = 0; i < udaciFamily.length; i++) {
+    console.log(udaciFamily[i])
+}
