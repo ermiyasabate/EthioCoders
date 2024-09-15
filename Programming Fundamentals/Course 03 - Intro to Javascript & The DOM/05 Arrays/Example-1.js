@@ -39,3 +39,6 @@ const donut = [
 
 // Accessing Arrays
 console.log(donut[0])
+console.log(donut[5])
+console.log(donut[3])
+console.log(donut[20]) // This returns the undefined because the array index is out of bounds
