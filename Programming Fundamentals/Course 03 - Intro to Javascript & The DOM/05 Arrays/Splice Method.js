@@ -13,3 +13,7 @@ console.log(donutsTwo)
 const donutsThree = ["glazed", "chocolate frosted", "Boston creme", "glazed cruller"];
 donutsThree.splice(-2, 2) // This removes elements the second last element and the element before it
 console.log(donutsThree)
+
+const donutsFour = ["cookies", "cinnamon sugar", "creme de leche"];
+donutsFour.splice(-2, 0, "chocolate frosted", "glazed"); // This will not delete anything but adds two element
+console.log(donutsFour)
