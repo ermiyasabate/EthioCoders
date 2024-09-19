@@ -7,7 +7,7 @@ const numbers = [65, 44, 12, 4];
 // })
 // OR
 
-numbers.forEach((item, index, arr) => {
+numbers.forEach((item, arr, index) => {
     arr[index] = item * 10;
 });
 console.log("Modified Array:", numbers);
