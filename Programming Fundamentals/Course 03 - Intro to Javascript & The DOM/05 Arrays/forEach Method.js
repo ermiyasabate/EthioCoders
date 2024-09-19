@@ -1,9 +1,15 @@
-const donuts = ["jelly donut", "chocolate donut", "glazed donut"];
+const myArray = ["A", "B", "C", "D"];
 
-function myAwesomeFunction(array) {
-    for (let i = 0; i < array.length; i++) {
-        console.log(array[i])
-    }
-}
+// function myAwesomeFunction(element, index, array) {
+//     console.log("Element: ", element);
+//     console.log("Index: ", index);
+//     console.log("Array: ", array);
+// }
 
-myAwesomeFunction(donuts)
+// myArray.forEach(myAwesomeFunction);
+
+myArray.forEach(function (element, index, array) {
+    console.log("Element: ", element);
+    console.log("Index: ", index);
+    console.log("Array: ", array);
+});
