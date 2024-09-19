@@ -1,0 +1,1 @@
+const removeFirstElement = ["a", "b", "c"];
