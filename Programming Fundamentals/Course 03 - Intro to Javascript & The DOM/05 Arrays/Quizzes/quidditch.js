@@ -18,7 +18,6 @@ function hasEnoughPlayers(team) {
     }
 }
 
-
 // test code
 const team1 = ["Oliver Wood", "Angelina Johnson", "Katie Bell", "Alicia Spinnet", "George Weasley", "Fred Weasley", "Harry Potter"];
 const team2 = ["George Weasley", "Fred Weasley", "Harry Potter"];
