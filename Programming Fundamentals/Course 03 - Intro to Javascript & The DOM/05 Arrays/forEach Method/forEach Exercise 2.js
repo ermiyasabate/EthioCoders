@@ -2,6 +2,6 @@
 const numbers = [65, 44, 12, 4];
 
 numbers.forEach(function(array){
-    array *= 10
-    console.log(numbers);
+    array = array * 10
+    console.log(array);
 })
