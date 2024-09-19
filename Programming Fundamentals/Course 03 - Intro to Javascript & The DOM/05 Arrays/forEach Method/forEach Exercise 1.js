@@ -3,6 +3,8 @@
 const numbers = [65, 44, 12, 4];
 let sum = 0;
 
-numbers.forEach( function(array) {
+numbers.forEach(function(array) {
     sum += array;
 });
+
+console.log(sum);
