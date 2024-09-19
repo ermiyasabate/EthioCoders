@@ -15,9 +15,8 @@ const test = [12, 929, 11, 3, 199, 1000, 7, 1, 24, 37, 4,
     6, 109, 20, 58, 139, 59, 3, 1, 139
 ];
 
-const miniTest = [12, 19, 11, 3]
 // Write your code here
-miniTest.forEach(function(item, index, array) {
+test.forEach(function(item, index, array) {
     if (item % 3 == 0) {
         array[index] = item + 100
     } else {
@@ -25,4 +24,4 @@ miniTest.forEach(function(item, index, array) {
     }
 })
 
-console.log(miniTest);
+console.log(test);
