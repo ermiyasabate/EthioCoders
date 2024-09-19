@@ -24,4 +24,5 @@ const sister = "River";
 const shepherd = "Book";
 
 // your code goes here
-
+crew.push("Simon", "River", "Book")
+console.log(crew)
