@@ -31,7 +31,6 @@ const total = bills.map(withTip)
 
 console.log(total);
 
-
 function withTip(element) {
-    return element * 0.15
+    return (element + (element * 0.15)).toFixed(2)
 }
