@@ -7,7 +7,9 @@ const grid = [
 
 function all(element) {
     for (let row = 0; row < element.length; row++) {
-        console.log(element[row])
+        for (let column = 0; column < element[row].length; column++) {
+            console.log(element[row][column])
+        }
     }
 }
 
