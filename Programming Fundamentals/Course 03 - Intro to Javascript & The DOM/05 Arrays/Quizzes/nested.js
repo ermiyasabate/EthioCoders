@@ -22,8 +22,16 @@ let numbers = [
 ];
 
 // your code goes here
+result = "[["
 for (let r = 0; r < numbers.length; r++) {
     for (let c = 0; c < numbers[r].length; c++) {
-        console.log(numbers[r][c])
+        if (numbers[r][c] % 2 == 0) {
+            result += "'even',"
+        } else {
+            result += "'odd',"
+        }
+
     }
 }
+
+console.log(result + "]]");
