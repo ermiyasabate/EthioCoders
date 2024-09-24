@@ -24,6 +24,9 @@ const facebookProfile = {
     },
     addFriend: function() {
         this.friends += 1
+    },
+    removeFriend: function() {
+        this.friends -= 1
     }
 }
 
