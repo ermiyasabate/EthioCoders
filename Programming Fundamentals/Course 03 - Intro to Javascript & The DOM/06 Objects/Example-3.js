@@ -16,3 +16,4 @@ const savingsAccount = {
 
 console.log(savingsAccount.balance);
 console.log(savingsAccount["balance"]);
+console.log(savingsAccount.withdraw(50));
