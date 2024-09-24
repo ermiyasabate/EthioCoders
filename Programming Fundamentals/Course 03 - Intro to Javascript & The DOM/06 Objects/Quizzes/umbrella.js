@@ -29,8 +29,6 @@ const umbrella = {
             return "Julia closes the umbrella!";
         }
      }
-    // your code goes here
-    
   };
   
   
