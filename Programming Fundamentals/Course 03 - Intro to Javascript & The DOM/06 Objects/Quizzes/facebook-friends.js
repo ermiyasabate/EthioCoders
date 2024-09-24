@@ -21,6 +21,9 @@ const facebookProfile = {
     },
     deleteMessage: function(deleteElement) {
         this.messages.splice(deleteElement, 1)
+    },
+    addFriend: function() {
+        this.friends += 1
     }
 }
 
