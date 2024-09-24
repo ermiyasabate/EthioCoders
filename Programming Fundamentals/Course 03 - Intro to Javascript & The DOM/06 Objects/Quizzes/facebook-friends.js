@@ -15,7 +15,10 @@
 const facebookProfile = {
     name: "Udacian",
     friends: 25,
-    messages: ["Message 1", "Message 2", "Message 3", "Message 4"]
+    messages: ["Message 1", "Message 2", "Message 3", "Message 4"],
+    postMessage: function(element) {
+        this.messages.push(element)
+    }
 }
 
 
