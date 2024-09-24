@@ -19,3 +19,6 @@ const donuts = [
 ];
 
 // your code goes here
+donuts.forEach(function (element, array) {
+    console.log(array.element + " donuts cost $" + array.cost + " each")
+})
