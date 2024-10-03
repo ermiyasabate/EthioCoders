@@ -6,6 +6,17 @@
     <title>Document</title>
 </head>
 <body>
-    
+    <div id="container">
+        <p id="extra">This element doesn't need to be here</p>
+    </div>
+
+    <script>
+        // const firstElement = document.querySelector("#extra")
+
+        elem = document.querySelector("#extra")
+        container = document.querySelector("#container")
+        container.removeChild(elem)
+        // document.querySelector("#container").replaceChild()
+    </script>
 </body>
 </html>
