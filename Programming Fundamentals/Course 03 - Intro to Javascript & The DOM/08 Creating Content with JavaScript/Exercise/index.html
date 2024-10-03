@@ -1,20 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+
 <body>
     <div id="container">
         <p id="extra">This element doesn't need to be here</p>
     </div>
 
+    <p id="quizzing-quizzes" style="color: orange;">Howdy</p>
+
     <script>
         const firstElement = document.querySelector("#extra")
 
-        firstElement.style.color = "orange"
-        firstElement.style.fontSize = "2em"
+        firstElement.style.color = 'blue';
+        firstElement.style.backgroundColor = 'orange';
+        firstElement.style.fontSize = '3.5em';
+
+        // OR we can do like this
+        firstElement.style.cssText = 'color: red; background-color: blue; font-size: 4.5em';
+
+
+        const quiz = document.querySelector('#quizzing-quizzes');
+        quiz.style.cssText = 'width: 30px; textDecoration: underline;'
     </script>
 </body>
+
 </html>
