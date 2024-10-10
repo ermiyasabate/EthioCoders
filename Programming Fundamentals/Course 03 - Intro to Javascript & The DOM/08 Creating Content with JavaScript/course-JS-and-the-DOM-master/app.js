@@ -1,3 +1,4 @@
-const nanodegreeCard = document.querySelector('.card');
+const start = document.querySelector('#start-now');
 
-nanodegreeCard.textContent = "I will be the updated text for the nanodegreeCard element!";
+start.style.backgroundColor = '#2015ff';
+start.style.borderRadius = '5rem';
